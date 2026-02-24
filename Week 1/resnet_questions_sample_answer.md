@@ -7,7 +7,6 @@
 - **Overfitting(과적합)**: 보통 **training error는 계속 내려가는데**, **test error(또는 generalization)가 악화**되는 현상.
 - **Degradation(성능 저하)**: 깊이를 늘릴수록 **training error 자체가 더 높아지는** 현상.
 즉, 데이터에 과적합되기 전에 **학습(최적화) 자체가 잘 안 되는 최적화 실패**를 의미한다.
-- (여기에 과적합, degradation 그래프 넣어주면 좋겠다.)
 
 ### 왜 “학습이 안 되는 문제(optimization issue)”인가?
 
