@@ -55,7 +55,7 @@ optimizer가 **‘학습하기 쉬운 형태’**로 문제를 풀게 만들며 
 
 차원이 유지될 때는 identity shortcut:
 
-- `y = F(x) + x`
+- $y = F(x) + x$
 
 를 그대로 쓸 수 있다.
 
@@ -69,10 +69,10 @@ optimizer가 **‘학습하기 쉬운 형태’**로 문제를 풀게 만들며 
     - spatial downsampling이 필요하면 identity branch에서도 **간단한 downsampling(예: stride에 맞춘 subsampling)**으로 해상도를 맞춘다.
 - **Option B (projection only when needed)**
     - 차원이 바뀌는 구간에서만 shortcut에 projection을 적용한다.
-    - 보통 `W_s`는 **1×1 conv**이며, 필요하면 **stride**로 해상도도 맞춘다.
-    - 수식: `y = F(x) + W_s x`
+    - 보통 $W_s$는 **1×1 conv**이며, 필요하면 **stride**로 해상도도 맞춘다.
+    - 수식: $y = F(x) + W_s x$
 - **Option C (projection everywhere)**
-    - 모든 shortcut을 projection(`W_s`)으로 만든다.
+    - 모든 shortcut을 projection($W_s$)으로 만든다.
     - 파라미터/연산량이 증가한다.
 
 ### (2) 왜 Option C를 이후 실험에서 쓰지 않는가?

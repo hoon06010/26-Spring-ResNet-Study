@@ -17,7 +17,7 @@
 ## 2) H(x) 대신 F(x)=H(x)−x를 학습하면 왜 더 쉬운가?
 
 Section 3.1에서 저자들은 원하는 mapping을 H(x)라 두고, 잔차를 F(x)=H(x)−x로 재정의하여  
-`y = F(x) + x` 형태로 학습한다.
+$y = F(x) + x$ 형태로 학습한다.
 
 (1) 최적의 해가 identity mapping(H(x)=x)일 때, 왜 F(x)=0으로 학습하는 것이 더 쉬운지 설명하시오.  
 
@@ -27,11 +27,11 @@ Section 3.1에서 저자들은 원하는 mapping을 H(x)라 두고, 잔차를 F(
 
 ## 3) Shortcut Option A/B/C는 무엇이며, 논문은 왜 Option C를 버렸는가?
 
-차원이 유지될 때는 identity shortcut `y = F(x) + x`를 쓸 수 있지만,  
+차원이 유지될 때는 identity shortcut $y = F(x) + x$를 쓸 수 있지만,  
 차원이 증가하거나 spatial downsampling이 발생하면 shortcut 설계가 달라진다.
 
 (1) 논문이 말하는 Option A/B/C를 각각 설명하시오.  
-또한 Option B에서 `y = F(x) + W_s x`가 의미하는 바를 설명하시오.
+또한 Option B에서 $y = F(x) + W_s x$가 의미하는 바를 설명하시오.
 
 (2) Table 3 결과와 저자 논의를 근거로,  
 왜 논문은 Option C를 이후 실험에서 사용하지 않겠다고 결론 내렸는지 설명하시오.

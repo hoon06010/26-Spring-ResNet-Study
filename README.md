@@ -1,4 +1,3 @@
-# 🛠️현재 제작 중
 ## Introduction
 A.ing 주니어 트랙 ResNet 세션은 ResNet에 대한 근본적인 이해를 목표로 합니다.<br>
 단순히 모델을 가져다 쓰는 것이 아니라, 그 내부 구조와 작동 원리를 이해하고, 자신의 데이터에 맞춰 수정하고 개선할 수 있는 능력을 기르는 것을 목표로 합니다.<br>
@@ -33,10 +32,15 @@ A.ing 주니어 트랙 ResNet 세션은 ResNet에 대한 근본적인 이해를 
 ```text
 26-Spring-ResNet-Study/
 ├─ readme.md
-├─ Aing_resnet_from_scratch_blank.ipynb
-├─ resnet_cookbook.md
-├─ A.ing_resnet_cheat_sheet.md
-
+├─ Week 1
+│    ├─ A.ing_resnet_cheat_sheet.md
+│    ├─ resnet_questions_sample_answer.md
+│    └─ resnet_questions.md
+├─ Week 2
+│    ├─ Aing_resnet_from_scratch_blank.ipynb
+│    └─ resnet_cookbook.md
+└─ Week 3
+     └─ Aing_league_ResNet_CIFAR10.ipynb
 ```
 
 ## 담당자
