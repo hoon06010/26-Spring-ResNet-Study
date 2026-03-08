@@ -57,7 +57,9 @@ https://arxiv.org/abs/1512.03385
 
 질문이나 도움이 필요하면 언제든 연락 주세요!<br>
 한 학기 동안 함께 열심히 공부해봅시다!
+
 ---
+
 Copyright © 2026 A.ing. Licensed under CC BY-NC 4.0.
 
 
